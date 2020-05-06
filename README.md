@@ -5,9 +5,12 @@ This API is used to get the details of the URL's given by the user to create the
 
 This service helps https://urlll.xyz 's API to run a Job every x hours to scrap website titles and description
 
-Payload: https://webpage-details.herokuapp.com/get_page_details?web_address=https://covid19-india-stat.herokuapp.com/
- 
-Response:
+Payload: 
+<pre>
+https://webpage-details.herokuapp.com/get_page_details?web_address=https://covid19-india-stat.herokuapp.com/
+</pre>
+Response
+<pre>
 {
 "data:
  {
