@@ -8,12 +8,11 @@ This service helps https://urlll.xyz 's API to run a Job every x hours to scrap 
 Payload: https://webpage-details.herokuapp.com/get_page_details?web_address=https://covid19-india-stat.herokuapp.com/
  
 Response:
- 
 {
-"data":
-      {
-        "first_p_tag":["Today"],
-        "meta_data":["Dashboard that gives live tracking of COVID-19 India"],
-        "title":["COVID-19 India"]
-      }
+"data:
+ {
+  "first_p_tag":["Today"],
+  "meta_data":["Dashboard that gives live tracking of COVID-19 India"],
+  "title":["COVID-19 India"]
+ }
 }
